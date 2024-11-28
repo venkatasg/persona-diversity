@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+*.jsonl
+.virtual_documents/
+.nova/
+data/*.tsv
+data/*csv
+*.jupyter
+overleaf/
