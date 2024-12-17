@@ -8,3 +8,4 @@ data/*.tsv
 data/*csv
 *.jupyter
 overleaf/
+papers/
