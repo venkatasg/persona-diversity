@@ -4,8 +4,6 @@
 *.jsonl
 .virtual_documents/
 .nova/
-data/*.tsv
-data/*csv
 *.jupyter
 overleaf/
 papers/
