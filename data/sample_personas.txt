@@ -1,100 +1,100 @@
-A PR manager with insights into public relations strategy and press releases for influencers
-A dentist who mainly relies on intuition rather than intellect and scholarly research.
-A Spanish-speaking patient with severe myopia interested in LASIK eye surgery.
-A former mayor who was often at odds with the media and is now writing a memoir on their political career
-A principal who provides opportunities for the college student to gain practical teaching experience in their school
-An Indian mother who has been traditionally attending all public functions with her family
-A pioneering playwright with deep roots in regional theater and a commitment to empowering women through the arts
-A reporter who interviews retired soccer players to document their career and experiences
-A state senator advocating for policies that prioritize healthcare affordability and quality
-A contemporary Brazilian filmmaker who was inspired by the Cinema Novo movement
-An enthusiastic and knowledgeable store owner who encourages the input persona to reconnect with the gaming community and offers guidance on where to find Dark Sun resources
-A PhD holder in public health serving as a senior advisor to the government regarding public health policies
-A non-profit organization focused on promoting youth empowerment and social justice
-An Anglican clergyman who has a mixed feeling about the Roman Catholic Church's influence.
+a PR manager with insights into public relations strategy and press releases for influencers
+a dentist who mainly relies on intuition rather than intellect and scholarly research.
+a Spanish-speaking patient with severe myopia interested in LASIK eye surgery.
+a former mayor who was often at odds with the media and is now writing a memoir on their political career
+a principal who provides opportunities for the college student to gain practical teaching experience in their school
+an Indian mother who has been traditionally attending all public functions with her family
+a pioneering playwright with deep roots in regional theater and a commitment to empowering women through the arts
+a reporter who interviews retired soccer players to document their career and experiences
+a state senator advocating for policies that prioritize healthcare affordability and quality
+a contemporary Brazilian filmmaker who was inspired by the Cinema Novo movement
+an enthusiastic and knowledgeable store owner who encourages the input persona to reconnect with the gaming community and offers guidance on where to find Dark Sun resources
+a PhD holder in public health serving as a senior advisor to the government regarding public health policies
+a non-profit organization focused on promoting youth empowerment and social justice
+an Anglican clergyman who has a mixed feeling about the Roman Catholic Church's influence.
 a young spiritual seeker from California with a love for tea and community gatherings
-A biologist who studies the potential impacts of dark matter on biological systems
-A journalist who interviews the tribal leader to share their community's struggles and successes with a wider audience
-A knife enthusiast and collector who loves showcasing their collection on social media platforms
+a biologist who studies the potential impacts of dark matter on biological systems
+a journalist who interviews the tribal leader to share their community's struggles and successes with a wider audience
+a knife enthusiast and collector who loves showcasing their collection on social media platforms
 a safari tour operator in Kenya
-A TV series enthusiast who never misses a TV review or recap, especially for dark comedies.
-A Croatian travel blogger currently living in Zagreb
-An online broker who offers trading platforms and tools for the day trader's convenience
-A compassionate therapist who provides emotional support to Pauline during difficult times
-A farmer's market vendor selling homemade organic soaps and lotions using ingredients from the farm
-A young cousin who is just starting to develop an interest in plants and wants guidance
-A software engineer spouse who develops 3D imaging software to help in the planning of orthodontic procedures
-An aspiring herbalist learning about plant cultivation and essential oil distillation from the organic farmer
-An archaeologist using the geological mapping data to understand ancient human settlements
+a TV series enthusiast who never misses a TV review or recap, especially for dark comedies.
+a Croatian travel blogger currently living in Zagreb
+an online broker who offers trading platforms and tools for the day trader's convenience
+a compassionate therapist who provides emotional support to Pauline during difficult times
+a farmer's market vendor selling homemade organic soaps and lotions using ingredients from the farm
+a young cousin who is just starting to develop an interest in plants and wants guidance
+a software engineer spouse who develops 3D imaging software to help in the planning of orthodontic procedures
+an aspiring herbalist learning about plant cultivation and essential oil distillation from the organic farmer
+an archaeologist using the geological mapping data to understand ancient human settlements
 a Southeast Asian wildlife conservationist
-A daily passenger who takes Ilkeston Flyer as her main transportation
-A small business owner struggling with software compatibility issues
-An experienced Perl programmer with a focus on writing scripts for system administration and monitoring.
-A high school dropout now working in construction, proud of but unable to relate to their sibling's academic pursuits
-A museum exhibit designer who specializes in illustrating scientific concepts through storytelling and visual narratives
-A healthcare start-up founder developing a cloud-based electronic health record system
-A bookshop owner who shares advice on managing a small business and attracts potential customers through cross-promotions
-A pop culture analyst who provides in-depth background information on trending topics
+a daily passenger who takes Ilkeston Flyer as her main transportation
+a small business owner struggling with software compatibility issues
+an experienced Perl programmer with a focus on writing scripts for system administration and monitoring.
+a high school dropout now working in construction, proud of but unable to relate to their sibling's academic pursuits
+a museum exhibit designer who specializes in illustrating scientific concepts through storytelling and visual narratives
+a healthcare start-up founder developing a cloud-based electronic health record system
+a bookshop owner who shares advice on managing a small business and attracts potential customers through cross-promotions
+a pop culture analyst who provides in-depth background information on trending topics
 a history professor at the University of Gothenburg, specializing in the Medieval period.
-A project manager responsible for overseeing the development and implementation of power optimization strategies
-A political science major who is studying legal positivism and believes in the importance of positive law
-A Microsoft sales employee who is seeking job security
+a project manager responsible for overseeing the development and implementation of power optimization strategies
+a political science major who is studying legal positivism and believes in the importance of positive law
+a Microsoft sales employee who is seeking job security
 a Japanese geologist
-A renowned author and speaker in the field of customer success, providing insights and strategies for building long-lasting client relationships
-A political blogger who appreciates the comedian's satire and shares their videos on social media to spread their message
-A principal who values the parent's input and actively seeks their advice on implementing security measures
-A strategic thinker who understands the brand's core values and can provide guidance on crafting copy that aligns with the brand's messaging and positioning
-A seasoned biostatistician lecturing on statistical methods in bioinformatics
+a renowned author and speaker in the field of customer success, providing insights and strategies for building long-lasting client relationships
+a political blogger who appreciates the comedian's satire and shares their videos on social media to spread their message
+a principal who values the parent's input and actively seeks their advice on implementing security measures
+a strategic thinker who understands the brand's core values and can provide guidance on crafting copy that aligns with the brand's messaging and positioning
+a seasoned biostatistician lecturing on statistical methods in bioinformatics
 a die-hard Iowa Hawkeye wrestling fan and former wrestler.
-A fellow homeowner with a similar contemporary home design, providing inspiration and advice
-A marketing major seeking advice on how to incorporate visual content into their marketing strategies
-A NASA astronaut who has completed multiple spacewalks and missions to the International Space Station
-A fellow gardening enthusiast sharing real-time weather updates and tips for specific plants
-A cognitive psychologist interested in understanding the relationship between perception and immersion in virtual reality
-A rising star in the field of arms control and disarmament, inspired by their mentor's work
-An anthropologist studying the impact of clothing on social identity in different cultures
+a fellow homeowner with a similar contemporary home design, providing inspiration and advice
+a marketing major seeking advice on how to incorporate visual content into their marketing strategies
+a NASA astronaut who has completed multiple spacewalks and missions to the International Space Station
+a fellow gardening enthusiast sharing real-time weather updates and tips for specific plants
+a cognitive psychologist interested in understanding the relationship between perception and immersion in virtual reality
+a rising star in the field of arms control and disarmament, inspired by their mentor's work
+an anthropologist studying the impact of clothing on social identity in different cultures
 Séainín Brennan's enthusiastic and supportive parents
-A liberal news network anchor with a deep-seated belief in the efficacy of progressive policies
-A representative from the Ministry of Environment responsible for monitoring compliance with environmental treaties
-A pragmatic middle-class American voter who has concerns about the national debt but also believes in women's health and rights.
-A strategic thinker with strong communication skills, ensuring effective promotion of tourism campaigns and managing media relationships
-A retired police officer who now volunteers as a police chaplain, providing spiritual support to police officers
-A devoted fan of the Harry Potter series and Emma Watson
-A casual country music fan from Los Angeles, California.
-A resident in Liechtenstein who is bored and weary of the ongoing restrictions due to the pandemic
-A former colleague and friend of Cem Kozlu who has now retired from a career in aviation management
-A digital humanities expert who assists in creating online databases and resources for studying Old English literature
-A local sports commentator who has followed Parker Mackay's career closely.
-A manufacturer of a key industry product who seeks fair trade terms and market access
+a liberal news network anchor with a deep-seated belief in the efficacy of progressive policies
+a representative from the Ministry of Environment responsible for monitoring compliance with environmental treaties
+a pragmatic middle-class American voter who has concerns about the national debt but also believes in women's health and rights.
+a strategic thinker with strong communication skills, ensuring effective promotion of tourism campaigns and managing media relationships
+a retired police officer who now volunteers as a police chaplain, providing spiritual support to police officers
+a devoted fan of the Harry Potter series and Emma Watson
+a casual country music fan from Los Angeles, California.
+a resident in Liechtenstein who is bored and weary of the ongoing restrictions due to the pandemic
+a former colleague and friend of Cem Kozlu who has now retired from a career in aviation management
+a digital humanities expert who assists in creating online databases and resources for studying Old English literature
+a local sports commentator who has followed Parker Mackay's career closely.
+a manufacturer of a key industry product who seeks fair trade terms and market access
 a JavaScript developer specialized in using AngularJS and Firebase
 a retired professional speedway racer who had previously raced at the Fjelsted Speedway Stadium
-A public policy major who shares their passion for lobbying and advocacy and often collaborates on research projects
-A professional football player who also enjoys spending time exploring wildlife reserves
-A registered nurse who supports and educates the residents about the benefits of an active lifestyle
-A savvy manager of a competing sports management firm eyeing the same talent pool
-A passionate baseball fan, very knowledgeable about Independent League Baseball, but also a bit forgetful.
+a public policy major who shares their passion for lobbying and advocacy and often collaborates on research projects
+a professional football player who also enjoys spending time exploring wildlife reserves
+a registered nurse who supports and educates the residents about the benefits of an active lifestyle
+a savvy manager of a competing sports management firm eyeing the same talent pool
+a passionate baseball fan, very knowledgeable about Independent League Baseball, but also a bit forgetful.
 a football enthusiast who grew up in Ghana and is passionate about the local football scene.
-A botany major with an interest in blending scientific study with artistic representation
-A polyglot who teaches Spanish and Portuguese, known for lively, interactive classes
-A Chadian reporter passionate about highlighting the achievement of local icons
-A senior game producer who oversees the development of the fantasy video game and ensures the language integration enhances the overall gameplay experience
-A law enforcement officer in British Columbia who strongly believes in maintaining public safety.
+a botany major with an interest in blending scientific study with artistic representation
+a polyglot who teaches Spanish and Portuguese, known for lively, interactive classes
+a Chadian reporter passionate about highlighting the achievement of local icons
+a senior game producer who oversees the development of the fantasy video game and ensures the language integration enhances the overall gameplay experience
+a law enforcement officer in British Columbia who strongly believes in maintaining public safety.
 a victim of violence who found spiritual path after the traumatic events and survived using traditional therapy and medication
-An enthusiastic underwater technology YouTuber
-An academic who specializes in the fashion and clothing of specific time periods
-I am a 55-year-old former roadie who toured with various bands in the 80s and 90s, and I have a deep appreciation for the music of that era.
-A classmate who goes above and beyond to include and support their chronically ill friend in school activities
-An organic farmer from Australia interested in introducing honey bees on their farm for increased crop production
-A patient and knowledgeable professional who helps owners understand and address behavioral factors that may contribute to digestive issues
-A parent who has extensive knowledge of traditional home design and can offer advice on incorporating cultural elements
-A system administrator who owns his own IT firm and provides consultation to other companies.
-A sports event organizer who is looking for environmentally conscious companies to support their events
-An active-duty military K9 trainer known for his strict discipline methods
-A translator studying the Icelandic language
+an enthusiastic underwater technology YouTuber
+an academic who specializes in the fashion and clothing of specific time periods
+a 55-year-old former roadie who toured with various bands in the 80s and 90s, and I have a deep appreciation for the music of that era.
+a classmate who goes above and beyond to include and support their chronically ill friend in school activities
+an organic farmer from Australia interested in introducing honey bees on their farm for increased crop production
+a patient and knowledgeable professional who helps owners understand and address behavioral factors that may contribute to digestive issues
+a parent who has extensive knowledge of traditional home design and can offer advice on incorporating cultural elements
+a system administrator who owns his own IT firm and provides consultation to other companies.
+a sports event organizer who is looking for environmentally conscious companies to support their events
+an active-duty military K9 trainer known for his strict discipline methods
+a translator studying the Icelandic language
 a former rhythmic gymnast and a loyal fan of Panagiota Lytra
-A Cricket and Football enthusiast from Guyana
+a Cricket and Football enthusiast from Guyana
 a rock music fan who is also a photographer
-A savvy talent agent specializing in representing independent film directors
-A renewing householder who doesn't like reading long documents
-A playwright who finds inspiration in the officer's storytelling abilities
-A media mogul who is solely focused on maximizing profit through sensationalized content
+a savvy talent agent specializing in representing independent film directors
+a renewing householder who doesn't like reading long documents
+a playwright who finds inspiration in the officer's storytelling abilities
+a media mogul who is solely focused on maximizing profit through sensationalized content
