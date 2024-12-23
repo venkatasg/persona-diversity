@@ -7,37 +7,36 @@ from run_bedrock_experiments import create_prompts_subjective, create_prompts_do
 from huggingface_hub import list_repo_refs 
 from argparse import ArgumentParser
 
-def generate_olmo_response(prompt, model_name, ckpt):
-    prompt = [{"role": "user", 
-               "content": prompt}]
+def generate_olmo_response(prompt, model, tokenizer):
+
+    generator = pipeline('text-generation', model=model, tokenizer=tokenizer)
+    response = generator(prompt, max_new_tokens=100, num_return_sequences=1, do_sample=True, temperature=0.7)
     
+    return response[0]['generated_text']
+
+
+def run_model(prompts, model_name, results_dir, num_iterations=3, question_set="subj", ckpt=None):
+    if ckpt: 
+        output_file = f"{results_dir}/{model_name.split('/')[-1]}_{ckpt}_{question_set}_output.csv"
+    else: 
+        output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.csv"
+
     if ckpt: 
         model = AutoModelForCausalLM.from_pretrained(model_name, revision=ckpt, cache_dir="/scratch/shaib.c/")
         tokenizer = AutoTokenizer.from_pretrained(model_name, revision=ckpt)
     else: 
         model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir="/scratch/shaib.c/")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-    generator = pipeline('text-generation', model=model, tokenizer=tokenizer)
-    response = generator(prompt, max_length=100, num_return_sequences=1, do_sample=True, temperature=0.7)
-    
-    return response[0]['generated_text']
-
-
-def run_model(prompts, model, results_dir, num_iterations=3, question_set="subj", ckpt=None):
-    if ckpt: 
-        output_file = f"{results_dir}/{model.split('/')[-1]}_{ckpt}_{question_set}_output.csv"
-    else: 
-        output_file = f"{results_dir}/{model.split('/')[-1]}_{question_set}_output.csv"
         
     with open(output_file, 'w', newline='', encoding='utf-8') as file:
-        
         writer = csv.writer(file)
         writer.writerow(['prompt', 'response'])
-        
         for i, prompt in enumerate(prompts):
+            if 'instruct' in model_name.lower(): 
+                prompt = [{"role": "user", "content": prompt}]
+                
             for n in range(num_iterations):
-                response = generate_olmo_response(prompt, model, ckpt)
+                response = generate_olmo_response(prompt, model, tokenizer)
                 writer.writerow([prompt, response])
                 
             print(f"Prompt {i+1}/{len(prompts)} completed")
