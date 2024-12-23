@@ -4,8 +4,8 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential
 import csv
 import pandas as pd
 
-boto3_bedrock = boto3.client('bedrock')
-bedrock_runtime = boto3.client('bedrock-runtime')
+# boto3_bedrock = boto3.client('bedrock')
+# bedrock_runtime = boto3.client('bedrock-runtime')
 
 def create_prompts_subjective(questions_file, personas_file):
     questions = open(questions_file, "r").read().splitlines()
