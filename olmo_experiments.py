@@ -12,12 +12,12 @@ from tqdm import tqdm
 def load_pipe(model_name, ckpt=None):
     if ckpt: 
         model = AutoModelForCausalLM.from_pretrained(model_name, revision=ckpt, cache_dir="/scratch/shaib.c/")
-        tokenizer = AutoTokenizer.from_pretrained(model_name, revision=ckpt)
+        tokenizer = AutoTokenizer.from_pretrained(model_name, revision=ckpt, padding_side='left')
     else: 
         model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir="/scratch/shaib.c/")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         
-    return pipeline('text-generation', model=model, tokenizer=tokenizer)
+    return pipeline('text-generation', model=model, tokenizer=tokenizer, device_map="auto")
 
 
 def run_model(prompts, model_name, results_dir, num_iterations=3, question_set="subj", ckpt=None):
@@ -31,14 +31,20 @@ def run_model(prompts, model_name, results_dir, num_iterations=3, question_set="
     with open(output_file, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['prompt', 'response'])
-        for i, prompt in tqdm(enumerate(prompts)):
-            if 'instruct' in model_name.lower(): 
-                prompt = [{"role": "user", "content": prompt}]
+        
+        
+        if 'instruct' in model_name.lower(): 
+            prompts = [{"role": "user", "content": prompt} for prompt in prompts]
                 
-            for n in range(num_iterations):
-                response = pipeline(prompt, max_new_tokens=100, num_return_sequences=1, do_sample=True, temperature=0.7)
-                writer.writerow([prompt, response[0]['generated_text']])
-                
+        for n in range(num_iterations):
+            response = pipeline(prompts, batch_size=2, max_new_tokens=256, num_return_sequences=1, do_sample=True, temperature=0.7)
+            if 'instruct' in model_name.lower():
+                for i, resp in enumerate(response):
+                    writer.writerow([prompts[i]['content'], resp])
+            else:
+                for i, resp in enumerate(response):
+                    writer.writerow([prompts[i], resp[0]['generated_text']]) 
+            
             print(f"Prompt {i+1}/{len(prompts)} completed")
 
 
