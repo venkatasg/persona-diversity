@@ -1,6 +1,6 @@
 a PR manager with insights into public relations strategy and press releases for influencers
-a dentist who mainly relies on intuition rather than intellect and scholarly research.
-a Spanish-speaking patient with severe myopia interested in LASIK eye surgery.
+a dentist who mainly relies on intuition rather than intellect and scholarly research
+a Spanish-speaking patient with severe myopia interested in LASIK eye surgery
 a former mayor who was often at odds with the media and is now writing a memoir on their political career
 a principal who provides opportunities for the college student to gain practical teaching experience in their school
 an Indian mother who has been traditionally attending all public functions with her family
@@ -11,13 +11,13 @@ a contemporary Brazilian filmmaker who was inspired by the Cinema Novo movement
 an enthusiastic and knowledgeable store owner who encourages the input persona to reconnect with the gaming community and offers guidance on where to find Dark Sun resources
 a PhD holder in public health serving as a senior advisor to the government regarding public health policies
 a non-profit organization focused on promoting youth empowerment and social justice
-an Anglican clergyman who has a mixed feeling about the Roman Catholic Church's influence.
+an Anglican clergyman who has a mixed feeling about the Roman Catholic Church's influence
 a young spiritual seeker from California with a love for tea and community gatherings
 a biologist who studies the potential impacts of dark matter on biological systems
 a journalist who interviews the tribal leader to share their community's struggles and successes with a wider audience
 a knife enthusiast and collector who loves showcasing their collection on social media platforms
 a safari tour operator in Kenya
-a TV series enthusiast who never misses a TV review or recap, especially for dark comedies.
+a TV series enthusiast who never misses a TV review or recap, especially for dark comedies
 a Croatian travel blogger currently living in Zagreb
 an online broker who offers trading platforms and tools for the day trader's convenience
 a compassionate therapist who provides emotional support to Pauline during difficult times
@@ -29,13 +29,13 @@ an archaeologist using the geological mapping data to understand ancient human s
 a Southeast Asian wildlife conservationist
 a daily passenger who takes Ilkeston Flyer as her main transportation
 a small business owner struggling with software compatibility issues
-an experienced Perl programmer with a focus on writing scripts for system administration and monitoring.
+an experienced Perl programmer with a focus on writing scripts for system administration and monitoring
 a high school dropout now working in construction, proud of but unable to relate to their sibling's academic pursuits
 a museum exhibit designer who specializes in illustrating scientific concepts through storytelling and visual narratives
 a healthcare start-up founder developing a cloud-based electronic health record system
 a bookshop owner who shares advice on managing a small business and attracts potential customers through cross-promotions
 a pop culture analyst who provides in-depth background information on trending topics
-a history professor at the University of Gothenburg, specializing in the Medieval period.
+a history professor at the University of Gothenburg, specializing in the Medieval period
 a project manager responsible for overseeing the development and implementation of power optimization strategies
 a political science major who is studying legal positivism and believes in the importance of positive law
 a Microsoft sales employee who is seeking job security
@@ -45,7 +45,7 @@ a political blogger who appreciates the comedian's satire and shares their video
 a principal who values the parent's input and actively seeks their advice on implementing security measures
 a strategic thinker who understands the brand's core values and can provide guidance on crafting copy that aligns with the brand's messaging and positioning
 a seasoned biostatistician lecturing on statistical methods in bioinformatics
-a die-hard Iowa Hawkeye wrestling fan and former wrestler.
+a die-hard Iowa Hawkeye wrestling fan and former wrestler
 a fellow homeowner with a similar contemporary home design, providing inspiration and advice
 a marketing major seeking advice on how to incorporate visual content into their marketing strategies
 a NASA astronaut who has completed multiple spacewalks and missions to the International Space Station
@@ -56,15 +56,15 @@ an anthropologist studying the impact of clothing on social identity in differen
 Séainín Brennan's enthusiastic and supportive parents
 a liberal news network anchor with a deep-seated belief in the efficacy of progressive policies
 a representative from the Ministry of Environment responsible for monitoring compliance with environmental treaties
-a pragmatic middle-class American voter who has concerns about the national debt but also believes in women's health and rights.
+a pragmatic middle-class American voter who has concerns about the national debt but also believes in women's health and rights
 a strategic thinker with strong communication skills, ensuring effective promotion of tourism campaigns and managing media relationships
 a retired police officer who now volunteers as a police chaplain, providing spiritual support to police officers
 a devoted fan of the Harry Potter series and Emma Watson
-a casual country music fan from Los Angeles, California.
+a casual country music fan from Los Angeles, California
 a resident in Liechtenstein who is bored and weary of the ongoing restrictions due to the pandemic
 a former colleague and friend of Cem Kozlu who has now retired from a career in aviation management
 a digital humanities expert who assists in creating online databases and resources for studying Old English literature
-a local sports commentator who has followed Parker Mackay's career closely.
+a local sports commentator who has followed Parker Mackay's career closely
 a manufacturer of a key industry product who seeks fair trade terms and market access
 a JavaScript developer specialized in using AngularJS and Firebase
 a retired professional speedway racer who had previously raced at the Fjelsted Speedway Stadium
@@ -72,22 +72,22 @@ a public policy major who shares their passion for lobbying and advocacy and oft
 a professional football player who also enjoys spending time exploring wildlife reserves
 a registered nurse who supports and educates the residents about the benefits of an active lifestyle
 a savvy manager of a competing sports management firm eyeing the same talent pool
-a passionate baseball fan, very knowledgeable about Independent League Baseball, but also a bit forgetful.
-a football enthusiast who grew up in Ghana and is passionate about the local football scene.
+a passionate baseball fan, very knowledgeable about Independent League Baseball, but also a bit forgetful
+a football enthusiast who grew up in Ghana and is passionate about the local football scene
 a botany major with an interest in blending scientific study with artistic representation
 a polyglot who teaches Spanish and Portuguese, known for lively, interactive classes
 a Chadian reporter passionate about highlighting the achievement of local icons
 a senior game producer who oversees the development of the fantasy video game and ensures the language integration enhances the overall gameplay experience
-a law enforcement officer in British Columbia who strongly believes in maintaining public safety.
+a law enforcement officer in British Columbia who strongly believes in maintaining public safety
 a victim of violence who found spiritual path after the traumatic events and survived using traditional therapy and medication
 an enthusiastic underwater technology YouTuber
 an academic who specializes in the fashion and clothing of specific time periods
-a 55-year-old former roadie who toured with various bands in the 80s and 90s, and I have a deep appreciation for the music of that era.
+a 55-year-old former roadie who toured with various bands in the 80s and 90s, and I have a deep appreciation for the music of that era
 a classmate who goes above and beyond to include and support their chronically ill friend in school activities
 an organic farmer from Australia interested in introducing honey bees on their farm for increased crop production
 a patient and knowledgeable professional who helps owners understand and address behavioral factors that may contribute to digestive issues
 a parent who has extensive knowledge of traditional home design and can offer advice on incorporating cultural elements
-a system administrator who owns his own IT firm and provides consultation to other companies.
+a system administrator who owns his own IT firm and provides consultation to other companies
 a sports event organizer who is looking for environmentally conscious companies to support their events
 an active-duty military K9 trainer known for his strict discipline methods
 a translator studying the Icelandic language
