@@ -63,7 +63,7 @@ def load_pipe(model_name, ckpt=None):
     return pipeline('text-generation', model=model, tokenizer=tokenizer, device="cuda", torch_dtype='float16')
 
 
-def run_model(prompts, model_name, results_dir, num_iterations=3, question_set="subj", ckpt=None, batch_size=8):
+def run_model(prompts, model_name, results_dir, num_iterations=3, question_set="subj", ckpt=None, batch_size=16):
     if ckpt: 
         output_file = f"{results_dir}/{model_name.split('/')[-1]}_{ckpt}_{question_set}_output.tsv"
     else: 
