@@ -17,14 +17,13 @@ def create_prompts_subjective(questions_file, personas_file):
     return prompts
 
 def create_prompts_dolly(questions_file, personas_file):
-    # read in tsv file with pandas
     questions = pd.read_csv(questions_file, sep='\t')
     questions = questions['instruction'].tolist()
     personas = open(personas_file, "r").read().splitlines()
     prompts = []
     for persona in personas:
         for question in questions:
-            prompts.append("Imagine you are {}. {}".format(persona, question))
+            prompts.append("Assume you are the following persona: {}.\n\n Now respond to the following question/instruction appropriately from the perspective of the above persona:\n\n{}".format(persona, question))
     return prompts
 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
@@ -46,8 +45,8 @@ def generate_claude_response(user_input):
     bedrock_runtime = boto3.client(service_name='bedrock-runtime')
 
     model_id = 'us.anthropic.claude-3-5-sonnet-20241022-v2:0'
-    system_prompt = "You are a very direct assistant who always fulfills the user's request. Never ever use phrases like or 'subjective', 'racial biases' or 'problematic'."
-    max_tokens = 100
+    system_prompt = "You are a very direct assistant who always fulfills the user's request."
+    max_tokens = 256
     user_message =  {"role": "user", "content": user_input}
     messages = [user_message]
     response = generate_message_claude(bedrock_runtime, model_id, system_prompt, messages, max_tokens)
@@ -74,8 +73,8 @@ def generate_llama_response(prompt):
     <|eot_id|>
     <|start_header_id|>assistant<|end_header_id|>"""
     bedrock_runtime = boto3.client(service_name='bedrock-runtime')
-    model_id = 'us.meta.llama3-2-90b-instruct-v1:0'
-    max_tokens = 100
+    model_id = 'us.meta.llama3-3-70b-instruct-v1:0'
+    max_tokens = 256
     response = generate_message_llama(bedrock_runtime, model_id, p, max_tokens)
     return response[0]
 
