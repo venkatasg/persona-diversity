@@ -1,4 +1,4 @@
-	instruction	num_tokens	num_tokens_round	num_words_round
+index	instruction	num_tokens	num_tokens_round	num_words_round
 525	Please propose an argument to convince my mother that she increases the amount of money that I get every month during my studies. I think the current amount is too low.	211	210	180
 172	Write a paragraph to refute a claim by a colleague that ancient structures such as Stonehenge, the Great Pyramid are evidence of UFO activities on Earth	189	190	160
 109	What is the best way to answer an interview question?	128	130	100
