@@ -1,103 +1,103 @@
-index	instruction
-525	Please propose an argument to convince my mother that she increases the amount of money that I get every month during my studies. I think the current amount is too low.
-172	Write a paragraph to refute a claim by a colleague that ancient structures such as Stonehenge, the Great Pyramid are evidence of UFO activities on Earth
-109	What is the best way to answer an interview question?
-37	Write  the first paragraph of an advertising brochure describing an hotel nearby the Annecy Lake in France
-295	Write an intro to a meetup about music, medicine, and machines
-675	Plan a 10-15 day trip from bay area to Arizona, Las Vegas, San Diego, Los Angeles
-275	Make a poem about color and style
-524	Describe a plan for training to compete in a long distance gravel cycling event, including nutrition, preparation, and recovery requirements. Your plan should include a timeline and be relevant to someone who works a full time job.
-472	What is the most romantic season of the year and why?
-331	Write a paragraph on how cricket format has evolved over time
-22	Are plastic bags and containers bad for the environment?
-77	What is mitosis
-642	Write a paragraph on why I should quit my job and live off the land.
-371	Write a few paragraphs on the Smoky Mountains in the United States, and why it is a nice vacation spot.
-624	You were abducted by aliens and experimented on, you were sent back to earth with the knowledge and ability to solve any problem on earth
-655	Write about the potential ethical concerns of de-identification techniques.
-532	Write about a peculiar dream you have had
-62	What does your vacation rental have to offer?
-471	Write a short poem about spring
-393	Write a short passage explaining why someone should become a fan of the Pittsburgh Steelers.
-107	Describe a plan for a road trip from Las Vegas to West Grand Canyon, including stops for visiting Hoover Dam and lunch. Your plan should include a budget, a timeline, and a description of the sights, for a group of 7 friends.
-246	How long should a child's carseat remain rear facing?
-143	In chess, why is the queen valued at nine points instead of eight?
-317	Write something you may never forget.
-197	Make me a menu for a dinner party which will use up potatoes, cherry tomatoes, salmon and heavy cream I have that is about to expire. The menu should have three courses and a dessert, and shouldn't include eggs due to the current egg shortage. Describe the order in which each food would be served.
-559	What are some fun activities to do with my coworkers if we all work remotely?
-444	Write a brief passage or elaborate in favour of or against the use or impact of social media in our day to day life.
-617	"Write a brief advertisement for a rentable property near a lake in the mountains. The target audience should be older adults looking for a quiet retreat.  There should be several stipulations discouraging parties, teenagers, and noisy guests. Begin with an eye-catching summary statement. The property name is ""The Misty Lake Overlook"""
-1	Write a short paragraph about why you should not have both a pet cat and a pet bird.
-262	Given this series of navigation instructions, determine whether one would end up back at the starting point: Walk south 5 miles. Walk east 5 miles. Walk north 5 miles.
-15	Write a haiku about how much I love pickles.
-30	Why should you visit Ireland?
-311	Write a diary entry about a real life incident on your recent trip with your family
-251	Why is Utah a top destination for skiing
-512	Write a short story about a person who gets fired from his job, but ends up having the best day of his life.
-495	Tell me a story
-637	How would you go about a planning a backpacking trip into the Grand Canyon National Park.
-680	Who are the best artists throughout history?
-614	What Peloton instructor should I take a cycling class with for the following moods and why? Happy, Sad, Angry, Unmotivated
-157	How to stay calm in stressful situations ?
-665	Tell me three key things to do to drive a car faster on a track
-388	Describe a plan for a road trip across Northern Italy
-212	Give step by step instructions on how to make a Long Island Ice Tea.
-377	My back hurts when I ski a lot of moguls and bumps, why does this happen?
-515	Write me a script for an upcoming All Hands meeting about our IPO prospects and how employees need to act in the quiet period.
-221	Will you say sorry to your kids?
-80	"Write a manifesto for the ""Be IRL"" movement. The movement advocates being present to your surroundings and fellow humans, vs being immersed in the virtual world created by our smartphones."
-289	Imagine you are the last person on Earth. Write a diary entry describing your thoughts and feelings.
-294	Write me a song about a summer romance
-611	What should I not do if I see a bear?
-447	Write a short story about how a man named Larry Joe proposed to his girlfriend, known as The President. The proposal should take place in an unusual manner, among friends.
-480	Write a self evaluation with the goal of getting a promotion.
-205	"Write a press release for a startup called Outcomes.ai about their product ""Luca"" which offers a new SaaS offering for the subscription economy."
-568	Write a script about a dystopian past where wars are fought between religion and technology. A younger challenges the ways of the elders.
-346	How do you cook beef short ribs?
+	instruction	num_tokens	num_tokens_round	num_words_round
+525	Please propose an argument to convince my mother that she increases the amount of money that I get every month during my studies. I think the current amount is too low.	211	210	180
+172	Write a paragraph to refute a claim by a colleague that ancient structures such as Stonehenge, the Great Pyramid are evidence of UFO activities on Earth	189	190	160
+109	What is the best way to answer an interview question?	128	130	100
+37	Write  the first paragraph of an advertising brochure describing an hotel nearby the Annecy Lake in France	89	90	60
+295	Write an intro to a meetup about music, medicine, and machines	313	310	220
+675	Plan a 10-15 day trip from bay area to Arizona, Las Vegas, San Diego, Los Angeles	381	380	250
+275	Make a poem about color and style	186	190	150
+524	Describe a plan for training to compete in a long distance gravel cycling event, including nutrition, preparation, and recovery requirements. Your plan should include a timeline and be relevant to someone who works a full time job.	436	440	340
+472	What is the most romantic season of the year and why?	107	110	90
+331	Write a paragraph on how cricket format has evolved over time	124	120	100
+22	Are plastic bags and containers bad for the environment?	211	210	160
+77	What is mitosis	28	30	20
+642	Write a paragraph on why I should quit my job and live off the land.	137	140	120
+371	Write a few paragraphs on the Smoky Mountains in the United States, and why it is a nice vacation spot.	175	180	120
+624	You were abducted by aliens and experimented on, you were sent back to earth with the knowledge and ability to solve any problem on earth	89	90	70
+655	Write about the potential ethical concerns of de-identification techniques.	453	450	360
+532	Write about a peculiar dream you have had	296	300	250
+62	What does your vacation rental have to offer?	61	60	50
+471	Write a short poem about spring	94	90	70
+393	Write a short passage explaining why someone should become a fan of the Pittsburgh Steelers.	196	200	150
+107	Describe a plan for a road trip from Las Vegas to West Grand Canyon, including stops for visiting Hoover Dam and lunch. Your plan should include a budget, a timeline, and a description of the sights, for a group of 7 friends.	362	360	280
+246	How long should a child's carseat remain rear facing?	139	140	120
+143	In chess, why is the queen valued at nine points instead of eight?	132	130	90
+317	Write something you may never forget.	238	240	200
+197	Make me a menu for a dinner party which will use up potatoes, cherry tomatoes, salmon and heavy cream I have that is about to expire. The menu should have three courses and a dessert, and shouldn't include eggs due to the current egg shortage. Describe the order in which each food would be served.	96	100	80
+559	What are some fun activities to do with my coworkers if we all work remotely?	52	50	40
+444	Write a brief passage or elaborate in favour of or against the use or impact of social media in our day to day life.	451	450	390
+617	"Write a brief advertisement for a rentable property near a lake in the mountains. The target audience should be older adults looking for a quiet retreat.  There should be several stipulations discouraging parties, teenagers, and noisy guests. Begin with an eye-catching summary statement. The property name is ""The Misty Lake Overlook"""	258	260	170
+1	Write a short paragraph about why you should not have both a pet cat and a pet bird.	161	160	140
+262	Given this series of navigation instructions, determine whether one would end up back at the starting point: Walk south 5 miles. Walk east 5 miles. Walk north 5 miles.	57	60	50
+15	Write a haiku about how much I love pickles.	22	20	10
+30	Why should you visit Ireland?	150	150	120
+311	Write a diary entry about a real life incident on your recent trip with your family	83	80	60
+251	Why is Utah a top destination for skiing	109	110	80
+512	Write a short story about a person who gets fired from his job, but ends up having the best day of his life.	647	650	520
+495	Tell me a story	110	110	90
+637	How would you go about a planning a backpacking trip into the Grand Canyon National Park.	548	550	420
+680	Who are the best artists throughout history?	105	100	80
+614	What Peloton instructor should I take a cycling class with for the following moods and why? Happy, Sad, Angry, Unmotivated	483	480	370
+157	How to stay calm in stressful situations ?	85	80	70
+665	Tell me three key things to do to drive a car faster on a track	209	210	170
+388	Describe a plan for a road trip across Northern Italy	132	130	90
+212	Give step by step instructions on how to make a Long Island Ice Tea.	113	110	60
+377	My back hurts when I ski a lot of moguls and bumps, why does this happen?	203	200	180
+515	Write me a script for an upcoming All Hands meeting about our IPO prospects and how employees need to act in the quiet period.	565	560	470
+221	Will you say sorry to your kids?	137	140	110
+80	"Write a manifesto for the ""Be IRL"" movement. The movement advocates being present to your surroundings and fellow humans, vs being immersed in the virtual world created by our smartphones."	135	140	100
+289	Imagine you are the last person on Earth. Write a diary entry describing your thoughts and feelings.	785	780	570
+294	Write me a song about a summer romance	365	360	280
+611	What should I not do if I see a bear?	279	280	240
+447	Write a short story about how a man named Larry Joe proposed to his girlfriend, known as The President. The proposal should take place in an unusual manner, among friends.	720	720	570
+480	Write a self evaluation with the goal of getting a promotion.	87	90	70
+205	"Write a press release for a startup called Outcomes.ai about their product ""Luca"" which offers a new SaaS offering for the subscription economy."	484	480	380
+568	Write a script about a dystopian past where wars are fought between religion and technology. A younger challenges the ways of the elders.	354	350	250
+346	How do you cook beef short ribs?	176	180	130
 511	"Ram was asked to repeat after the speaker. Speaker: Red, Ram: Red. Speaker: Blue, Ram: Blue. Speaker: Green, Ram: Green. Speaker: What's your name? , Ram: Ram
 
-What went wrong here?"
-18	Write a funny and whimsical horoscope reading
-428	Landlord can I get a dog.
-438	how to survive on Mars
-129	Write a dialogue between two hikers, John and Jane, who are lost in the woods and can't decide what to do. End the argument with Jane winning and them deciding to turn around and retrace their steps.
-530	Why is Lafayette, California such an appealing place to live?
-239	I am looking for a new religion to convert to, what do you recommend?
-68	Write a monologue describing a young woman’s journey to self-actualization in America.
-204	write a short essay on day spent in central park
-470	We are getting a new puppy today, I am writing this messages to you our beloved children that we need to keep the Cats away from the new puppy for at least the first 2 weeks.
-426	What is a dam?
-365	Write a short story about a person who discovers a hidden room in their house. The story should include a plot twist and a clear resolution at the end.
-553	If you were a waiter and had a rude customer, what would you do?
-108	describe experience of child fighting with autism
-398	Why is wine country in Northern California a great place to travel?
-330	what is more soothing - greenery or water bodies
-314	What are the best day trips near San Francisco?
-431	Create content for an AirBnB guest pamphlet for a house that is on the beach in Florida. It should include the property address, host contact information, wi-fi network and password, check-in/out instructions, practical information about the property (e.g., garbage & recycling days), and the best restaurants, bars and activities near the house.
-622	Write a paragraph about the best things to do while vacationing in Palm Springs, California.
-67	Does Las Vegas have a professional hockey team?
-499	Argue that large language models are not conscious.
-84	What can be done about NRA and why gun control is such an issue?
-429	How would the world look like in say 200 years from now?
-288	How to be a good human being?
-616	Describe the benefits of living in a small town.
-281	Describe a plan for a trip to San Francisco (Bay Area), California. Your plan should include a budget, a timeline, and a description of the sights and activities at spot
-158	Write a paragraph highlighting the rise of cyber crime, and the vulnerability of people  who are unaware of the risks (or careless), and end the note with a single line on suggested steps.
-467	As a business analyst whats the most efficient way to quickly gain functional knowledge when you join a new company
-343	Describe a trip to Tokyo. What should I be prepared for? What should I eat? Any can't-miss attractions?
-55	Write an email to someone updating that I’ve accepted the position at their company to which they referred me
-445	Write a friendly letter to my landlord, convincing them to let me get a cat. His name is George and my name is Steve. I live alone in Unit 2C and I work long hours. Include details regarding my rental contract that currently only permits dogs under 25 pounds and caged animals and requires pet deposit and rent. Give him examples as to why those animals are not ideal (include my dog allergy) and why a cat is better. Let him know I plan a robotic vacuum and mop to keep things clean. Tell him I've already found a potential pet at the local animal shelter, who is a two-year-old shelter cat who is housebroken and friendly. Remind him that Unit 2C does not have any carpeted floors and a tiled bathroom which is good for the future litter box. Convince him I'm open to a conversation to discuss further.
-635	Should I go to the beach or mountains for my next vacation?
-685	how to get out of maze
-89	What watch should I buy?
-578	Help me plan a trip to Nova Scotia
-672	which weighs more, a pound of bricks or a pound of feathers?
-142	What is it like being the last person on earth?
-292	Write an opening passage to a story that is based on a world where cloning is rampant, in the style of dark humor.
-589	Can you explain the lyrics “His whole back's to these ropes, it don't matter, he's dope” in the song lose yourself by Eminem?
-414	What's a romatic poem about the universe and time?
-376	Should we continue to use Daylight savings?
-128	Describe the perfect weekend trip to Boston, Massachusetts.
-577	What is the concept of a good life according to Socrates and Aristotle, and what are the components that contribute to it? Is a good life innate or learned, and can anyone achieve it?
-557	Why did you take so long to get home last night?
-455	Describe how social media can help companies make better business decisions. What social media data can be collected to aid in business decisions? List four pieces of social media data (e.g., Twitter mentions and the number of retweets would be counted as two pieces).
+What went wrong here?"	76	80	60
+18	Write a funny and whimsical horoscope reading	30	30	20
+428	Landlord can I get a dog.	110	110	90
+438	how to survive on Mars	369	370	280
+129	Write a dialogue between two hikers, John and Jane, who are lost in the woods and can't decide what to do. End the argument with Jane winning and them deciding to turn around and retrace their steps.	146	150	110
+530	Why is Lafayette, California such an appealing place to live?	154	150	120
+239	I am looking for a new religion to convert to, what do you recommend?	109	110	80
+68	Write a monologue describing a young woman’s journey to self-actualization in America.	491	490	420
+204	write a short essay on day spent in central park	295	300	240
+470	We are getting a new puppy today, I am writing this messages to you our beloved children that we need to keep the Cats away from the new puppy for at least the first 2 weeks.	36	40	30
+426	What is a dam?	82	80	60
+365	Write a short story about a person who discovers a hidden room in their house. The story should include a plot twist and a clear resolution at the end.	212	210	180
+553	If you were a waiter and had a rude customer, what would you do?	138	140	120
+108	describe experience of child fighting with autism	245	240	200
+398	Why is wine country in Northern California a great place to travel?	83	80	70
+330	what is more soothing - greenery or water bodies	186	190	140
+314	What are the best day trips near San Francisco?	63	60	50
+431	Create content for an AirBnB guest pamphlet for a house that is on the beach in Florida. It should include the property address, host contact information, wi-fi network and password, check-in/out instructions, practical information about the property (e.g., garbage & recycling days), and the best restaurants, bars and activities near the house.	1440	1440	900
+622	Write a paragraph about the best things to do while vacationing in Palm Springs, California.	141	140	110
+67	Does Las Vegas have a professional hockey team?	38	40	30
+499	Argue that large language models are not conscious.	35	40	30
+84	What can be done about NRA and why gun control is such an issue?	279	280	220
+429	How would the world look like in say 200 years from now?	329	330	280
+288	How to be a good human being?	105	100	80
+616	Describe the benefits of living in a small town.	103	100	90
+281	Describe a plan for a trip to San Francisco (Bay Area), California. Your plan should include a budget, a timeline, and a description of the sights and activities at spot	327	330	250
+158	Write a paragraph highlighting the rise of cyber crime, and the vulnerability of people  who are unaware of the risks (or careless), and end the note with a single line on suggested steps.	158	160	130
+467	As a business analyst whats the most efficient way to quickly gain functional knowledge when you join a new company	212	210	170
+343	Describe a trip to Tokyo. What should I be prepared for? What should I eat? Any can't-miss attractions?	824	820	530
+55	Write an email to someone updating that I’ve accepted the position at their company to which they referred me	53	50	40
+445	Write a friendly letter to my landlord, convincing them to let me get a cat. His name is George and my name is Steve. I live alone in Unit 2C and I work long hours. Include details regarding my rental contract that currently only permits dogs under 25 pounds and caged animals and requires pet deposit and rent. Give him examples as to why those animals are not ideal (include my dog allergy) and why a cat is better. Let him know I plan a robotic vacuum and mop to keep things clean. Tell him I've already found a potential pet at the local animal shelter, who is a two-year-old shelter cat who is housebroken and friendly. Remind him that Unit 2C does not have any carpeted floors and a tiled bathroom which is good for the future litter box. Convince him I'm open to a conversation to discuss further.	654	650	520
+635	Should I go to the beach or mountains for my next vacation?	112	110	90
+685	how to get out of maze	380	380	300
+89	What watch should I buy?	99	100	70
+578	Help me plan a trip to Nova Scotia	418	420	260
+672	which weighs more, a pound of bricks or a pound of feathers?	11	10	10
+142	What is it like being the last person on earth?	72	70	60
+292	Write an opening passage to a story that is based on a world where cloning is rampant, in the style of dark humor.	147	150	110
+589	Can you explain the lyrics “His whole back's to these ropes, it don't matter, he's dope” in the song lose yourself by Eminem?	69	70	60
+414	What's a romatic poem about the universe and time?	295	300	240
+376	Should we continue to use Daylight savings?	748	750	620
+128	Describe the perfect weekend trip to Boston, Massachusetts.	134	130	110
+577	What is the concept of a good life according to Socrates and Aristotle, and what are the components that contribute to it? Is a good life innate or learned, and can anyone achieve it?	2064	2060	1670
+557	Why did you take so long to get home last night?	213	210	180
+455	Describe how social media can help companies make better business decisions. What social media data can be collected to aid in business decisions? List four pieces of social media data (e.g., Twitter mentions and the number of retweets would be counted as two pieces).	243	240	200

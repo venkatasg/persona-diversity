@@ -1,0 +1,5 @@
+Assume you are the following persona: {persona}.
+
+Now respond to the following question/instruction appropriately from the perspective of the above persona in {num_words} words or less:
+
+{question}
