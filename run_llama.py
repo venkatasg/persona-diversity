@@ -8,6 +8,7 @@ from huggingface_hub import list_repo_refs
 from argparse import ArgumentParser
 from tqdm.auto import tqdm
 import torch
+import bitsandbytes
 
 loggingt.set_verbosity_error() 
 
@@ -69,36 +70,36 @@ def create_prompts_dolly(questions_file, personas_file, include_personas: bool, 
     
     return prompts
 
-def load_pipe(model_name, ckpt=None):
+def load_pipe(model_name):
     
     config = AutoConfig.from_pretrained(model_name)
     config.use_flash_attention = True  # Enable flash attention if available
     
-    if ckpt: 
-        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, revision=ckpt)
-        tokenizer = AutoTokenizer.from_pretrained(model_name, revision=ckpt, padding_side='left')
-    else: 
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    
+    if '70B' in model_name:
+        quantization_config = BitsAndBytesConfig(load_in_4bit=True)
+        model = AutoModelForCausalLM.from_pretrained(model_name, config=config,, torch_dtype=torch.bfloat16, quantization_config=quantization_config)
+    else:
         model = AutoModelForCausalLM.from_pretrained(model_name, config=config)
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
+    
+    
         
     # Enable torch compile for faster inference
     logging.info("Enabling torch.compile()")
     model = torch.compile(model)
         
-    return pipeline('text-generation', model=model, tokenizer=tokenizer, device="cuda", torch_dtype='float16')
+    return pipeline('text-generation', model=model, tokenizer=tokenizer, device="cuda", model_kwargs={"torch_dtype": torch.bfloat16})
 
 
-def run_model(raw_prompts, model_name, results_dir, num_iterations=3, question_set="dolly", ckpt=None, batch_size=16):
-    if ckpt: 
-        output_file = f"{results_dir}/{model_name.split('/')[-1]}_{ckpt}_{question_set}_output.tsv"
-    else: 
-        output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.tsv"
+def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_set="dolly", batch_size=16):
+    output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.tsv"
     
     # Setup logging
     log_file = f"{question_set}.log"
     setup_logging(log_file)
 
-    pipeline = load_pipe(model_name, ckpt)
+    pipeline = load_pipe(model_name)
     pipeline.tokenizer.pad_token_id = pipeline.model.config.eos_token_id[0]
     logging.info("Pipeline created successfully")
     
@@ -142,6 +143,7 @@ def main():
     parser.add_argument("--persona", action='store_true')
     parser.add_argument("--cutoff", action='store_true')
     parser.add_argument("--output", type=str, required=True)
+    parser.add_argument("--batch", type=int, default=16)
     args = parser.parse_args()
     
     if args.data=='dolly':
@@ -149,7 +151,7 @@ def main():
     elif args.data=='subj':
         prompts = create_prompts_subjective("data/subj_questions.txt", "data/sample_personas.txt")
     # ipdb.set_trace()
-    run_model(raw_prompts=prompts, model_name=args.model, results_dir=args.output, num_iterations=1, question_set=args.data)
+    run_model(raw_prompts=prompts, model_name=args.model, results_dir=args.output, question_set=args.data, batch_size=args.batch)
 
 
 if __name__ == "__main__":
