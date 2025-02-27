@@ -3,12 +3,11 @@ import pandas as pd
 import os 
 import ipdb
 import logging
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig, pipeline, logging as loggingt
+from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig, pipeline, logging as loggingt, BitsAndBytesConfig
 from huggingface_hub import list_repo_refs 
 from argparse import ArgumentParser
 from tqdm.auto import tqdm
 import torch
-import bitsandbytes
 
 loggingt.set_verbosity_error() 
 
@@ -78,10 +77,10 @@ def load_pipe(model_name):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
     if '70B' in model_name:
-        quantization_config = BitsAndBytesConfig(load_in_4bit=True)
-        model = AutoModelForCausalLM.from_pretrained(model_name, config=config,, torch_dtype=torch.bfloat16, quantization_config=quantization_config)
+        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, torch_dtype=torch.bfloat16, quantization_config=quantization_config, device_map='auto')
     else:
-        model = AutoModelForCausalLM.from_pretrained(model_name, config=config)
+        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, device_map='auto')
     
     
         
@@ -89,7 +88,7 @@ def load_pipe(model_name):
     logging.info("Enabling torch.compile()")
     model = torch.compile(model)
         
-    return pipeline('text-generation', model=model, tokenizer=tokenizer, device="cuda", model_kwargs={"torch_dtype": torch.bfloat16})
+    return pipeline('text-generation', model=model, tokenizer=tokenizer, model_kwargs={"torch_dtype": torch.bfloat16})
 
 
 def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_set="dolly", batch_size=16):
