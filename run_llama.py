@@ -108,8 +108,8 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
 
     with open(output_file, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
-        writer.writerow(['prompt', 'response'])
-        
+        writer.writerow(['response'])
+        ### FIX THE FIRST COLUMN - IT SHOULD HAVE THE INSTRUCTION MAPPED CORRECTLY
         processed_prompts = 0
         for i in range(0, total_prompts, batch_size):
             batch = prompts[i:i + batch_size]
@@ -125,7 +125,7 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
                 
                 for i, all_responses in enumerate(responses):
                     for resp in all_responses:
-                        writer.writerow([prompts[i][0]['content'], resp['generated_text'][-1]['content']])
+                        writer.writerow([resp['generated_text'][-1]['content']])
                 
                 processed_prompts += batch_size
                 logging.info(f"Progress: {processed_prompts}/{total_prompts} prompts processed")
