@@ -32,7 +32,7 @@ def setup_logging(log_file: str) -> None:
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
             logging.FileHandler(log_file),
-            logging.StreamHandler()  # This will print to console as well
+            # logging.StreamHandler()  # This will print to console as well
         ]
     )
 
@@ -92,7 +92,7 @@ async def async_chat_completion(model_name, messages):
 def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_set="dolly", batch_size=16):
     
     # Setup logging
-    log_file = f"{question_set}.log"
+    log_file = f"{results_dir}/inference.log"
     setup_logging(log_file)
     
     total_prompts = len(raw_prompts)
@@ -115,7 +115,7 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
             processed_prompts += batch_size
             logging.info(f"Progress: {processed_prompts}/{total_prompts} prompts processed")
                 
-            if processed_prompts%(batch_size*10)==0:
+            if processed_prompts%(batch_size*5)==0:
                 logging.info(f"Sleeping for 10 seconds")
                 sleep(10)
 
