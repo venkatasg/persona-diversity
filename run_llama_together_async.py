@@ -99,12 +99,12 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
     logging.info(f"Starting inference on {total_prompts} prompts")
     
     output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.tsv"
-    with open(output_file, 'w', newline='', encoding='utf-8') as file:
+    with open(output_file, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
-        writer.writerow(['prompt_id', 'persona_id', 'response'])
+        # writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 0
-        for i in range(0, total_prompts, batch_size):
+        processed_prompts = 9680
+        for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
             
             responses = asyncio.run(async_chat_completion(model_name, batch))
@@ -115,8 +115,9 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
             processed_prompts += batch_size
             logging.info(f"Progress: {processed_prompts}/{total_prompts} prompts processed")
                 
-            # if processed_prompts%(batch_size*10)==0:
-            #     sleep(10)
+            if processed_prompts%(batch_size*10)==0:
+                logging.info(f"Sleeping for 10 seconds")
+                sleep(10)
 
 
 def main():
