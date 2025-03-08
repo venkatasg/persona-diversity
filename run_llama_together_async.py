@@ -103,7 +103,7 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
         writer = csv.writer(file, delimiter="\t")
         writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 0
+        processed_prompts = 1584
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
             

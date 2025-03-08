@@ -1,0 +1,300 @@
+2025-03-07 16:29:38,109 - INFO - Starting inference on 10000 prompts
+2025-03-07 16:29:46,891 - INFO - Progress: 16/10000 prompts processed
+2025-03-07 16:29:53,587 - INFO - Progress: 32/10000 prompts processed
+2025-03-07 16:30:01,788 - INFO - Progress: 48/10000 prompts processed
+2025-03-07 16:30:12,225 - INFO - Progress: 64/10000 prompts processed
+2025-03-07 16:30:20,665 - INFO - Progress: 80/10000 prompts processed
+2025-03-07 16:30:27,833 - INFO - Progress: 96/10000 prompts processed
+2025-03-07 16:30:34,317 - INFO - Progress: 112/10000 prompts processed
+2025-03-07 16:30:41,727 - INFO - Progress: 128/10000 prompts processed
+2025-03-07 16:30:50,464 - INFO - Progress: 144/10000 prompts processed
+2025-03-07 16:30:58,452 - INFO - Progress: 160/10000 prompts processed
+2025-03-07 16:30:58,452 - INFO - Sleeping for 10 seconds
+2025-03-07 16:31:15,691 - INFO - Progress: 176/10000 prompts processed
+2025-03-07 16:31:22,589 - INFO - Progress: 192/10000 prompts processed
+2025-03-07 16:31:31,374 - INFO - Progress: 208/10000 prompts processed
+2025-03-07 16:31:39,003 - INFO - Progress: 224/10000 prompts processed
+2025-03-07 16:31:46,682 - INFO - Progress: 240/10000 prompts processed
+2025-03-07 16:31:55,358 - INFO - Progress: 256/10000 prompts processed
+2025-03-07 16:32:04,703 - INFO - Progress: 272/10000 prompts processed
+2025-03-07 16:32:11,805 - INFO - Progress: 288/10000 prompts processed
+2025-03-07 16:32:20,374 - INFO - Progress: 304/10000 prompts processed
+2025-03-07 16:32:29,280 - INFO - Progress: 320/10000 prompts processed
+2025-03-07 16:32:29,280 - INFO - Sleeping for 10 seconds
+2025-03-07 16:32:49,711 - INFO - Progress: 336/10000 prompts processed
+2025-03-07 16:33:00,411 - INFO - Progress: 352/10000 prompts processed
+2025-03-07 16:33:09,628 - INFO - Progress: 368/10000 prompts processed
+2025-03-07 16:33:19,661 - INFO - Progress: 384/10000 prompts processed
+2025-03-07 16:33:28,571 - INFO - Progress: 400/10000 prompts processed
+2025-03-07 16:33:41,473 - INFO - Progress: 416/10000 prompts processed
+2025-03-07 16:33:48,038 - INFO - Progress: 432/10000 prompts processed
+2025-03-07 16:34:01,067 - INFO - Progress: 448/10000 prompts processed
+2025-03-07 16:34:13,627 - INFO - Progress: 464/10000 prompts processed
+2025-03-07 16:34:21,305 - INFO - Progress: 480/10000 prompts processed
+2025-03-07 16:34:21,305 - INFO - Sleeping for 10 seconds
+2025-03-07 16:34:39,945 - INFO - Progress: 496/10000 prompts processed
+2025-03-07 16:34:49,875 - INFO - Progress: 512/10000 prompts processed
+2025-03-07 16:34:57,350 - INFO - Progress: 528/10000 prompts processed
+2025-03-07 16:35:05,613 - INFO - Progress: 544/10000 prompts processed
+2025-03-07 16:35:17,010 - INFO - Progress: 560/10000 prompts processed
+2025-03-07 16:35:25,982 - INFO - Progress: 576/10000 prompts processed
+2025-03-07 16:35:37,494 - INFO - Progress: 592/10000 prompts processed
+2025-03-07 16:35:48,549 - INFO - Progress: 608/10000 prompts processed
+2025-03-07 16:35:57,463 - INFO - Progress: 624/10000 prompts processed
+2025-03-07 16:36:07,495 - INFO - Progress: 640/10000 prompts processed
+2025-03-07 16:36:07,496 - INFO - Sleeping for 10 seconds
+2025-03-07 16:36:27,669 - INFO - Progress: 656/10000 prompts processed
+2025-03-07 16:36:41,495 - INFO - Progress: 672/10000 prompts processed
+2025-03-07 16:36:51,528 - INFO - Progress: 688/10000 prompts processed
+2025-03-07 16:37:02,487 - INFO - Progress: 704/10000 prompts processed
+2025-03-07 16:37:10,675 - INFO - Progress: 720/10000 prompts processed
+2025-03-07 16:37:18,767 - INFO - Progress: 736/10000 prompts processed
+2025-03-07 16:37:27,599 - INFO - Progress: 752/10000 prompts processed
+2025-03-07 16:37:36,890 - INFO - Progress: 768/10000 prompts processed
+2025-03-07 16:37:45,994 - INFO - Progress: 784/10000 prompts processed
+2025-03-07 16:37:53,788 - INFO - Progress: 800/10000 prompts processed
+2025-03-07 16:37:53,789 - INFO - Sleeping for 10 seconds
+2025-03-07 16:38:11,912 - INFO - Progress: 816/10000 prompts processed
+2025-03-07 16:38:20,721 - INFO - Progress: 832/10000 prompts processed
+2025-03-07 16:38:31,583 - INFO - Progress: 848/10000 prompts processed
+2025-03-07 16:38:42,124 - INFO - Progress: 864/10000 prompts processed
+2025-03-07 16:38:49,512 - INFO - Progress: 880/10000 prompts processed
+2025-03-07 16:38:55,655 - INFO - Progress: 896/10000 prompts processed
+2025-03-07 16:39:06,158 - INFO - Progress: 912/10000 prompts processed
+2025-03-07 16:39:16,527 - INFO - Progress: 928/10000 prompts processed
+2025-03-07 16:39:26,810 - INFO - Progress: 944/10000 prompts processed
+2025-03-07 16:39:44,276 - INFO - Progress: 960/10000 prompts processed
+2025-03-07 16:39:44,277 - INFO - Sleeping for 10 seconds
+2025-03-07 16:40:08,241 - INFO - Progress: 976/10000 prompts processed
+2025-03-07 16:40:18,377 - INFO - Progress: 992/10000 prompts processed
+2025-03-07 16:40:27,795 - INFO - Progress: 1008/10000 prompts processed
+2025-03-07 16:40:38,041 - INFO - Progress: 1024/10000 prompts processed
+2025-03-07 16:40:45,219 - INFO - Progress: 1040/10000 prompts processed
+2025-03-07 16:40:56,062 - INFO - Progress: 1056/10000 prompts processed
+2025-03-07 16:41:08,246 - INFO - Progress: 1072/10000 prompts processed
+2025-03-07 16:41:18,079 - INFO - Progress: 1088/10000 prompts processed
+2025-03-07 16:41:25,673 - INFO - Progress: 1104/10000 prompts processed
+2025-03-07 16:41:35,617 - INFO - Progress: 1120/10000 prompts processed
+2025-03-07 16:41:35,617 - INFO - Sleeping for 10 seconds
+2025-03-07 16:41:54,533 - INFO - Progress: 1136/10000 prompts processed
+2025-03-07 16:42:04,382 - INFO - Progress: 1152/10000 prompts processed
+2025-03-07 16:42:22,586 - INFO - Progress: 1168/10000 prompts processed
+2025-03-07 16:42:35,824 - INFO - Progress: 1184/10000 prompts processed
+2025-03-07 16:42:46,729 - INFO - Progress: 1200/10000 prompts processed
+2025-03-07 16:42:58,940 - INFO - Progress: 1216/10000 prompts processed
+2025-03-07 16:43:08,159 - INFO - Progress: 1232/10000 prompts processed
+2025-03-07 16:43:18,705 - INFO - Progress: 1248/10000 prompts processed
+2025-03-07 16:43:35,097 - INFO - Progress: 1264/10000 prompts processed
+2025-03-07 16:43:43,281 - INFO - Progress: 1280/10000 prompts processed
+2025-03-07 16:43:43,281 - INFO - Sleeping for 10 seconds
+2025-03-07 16:44:03,040 - INFO - Progress: 1296/10000 prompts processed
+2025-03-07 16:44:15,224 - INFO - Progress: 1312/10000 prompts processed
+2025-03-07 16:44:23,315 - INFO - Progress: 1328/10000 prompts processed
+2025-03-07 16:44:34,273 - INFO - Progress: 1344/10000 prompts processed
+2025-03-07 16:44:42,771 - INFO - Progress: 1360/10000 prompts processed
+2025-03-07 16:44:54,138 - INFO - Progress: 1376/10000 prompts processed
+2025-03-07 16:45:02,452 - INFO - Progress: 1392/10000 prompts processed
+2025-03-07 16:45:12,045 - INFO - Progress: 1408/10000 prompts processed
+2025-03-07 16:45:18,397 - INFO - Progress: 1424/10000 prompts processed
+2025-03-07 16:45:25,627 - INFO - Progress: 1440/10000 prompts processed
+2025-03-07 16:45:25,627 - INFO - Sleeping for 10 seconds
+2025-03-07 16:45:45,529 - INFO - Progress: 1456/10000 prompts processed
+2025-03-07 16:45:53,308 - INFO - Progress: 1472/10000 prompts processed
+2025-03-07 16:46:02,320 - INFO - Progress: 1488/10000 prompts processed
+2025-03-07 16:46:09,004 - INFO - Progress: 1504/10000 prompts processed
+2025-03-07 16:46:19,852 - INFO - Progress: 1520/10000 prompts processed
+2025-03-07 16:46:28,227 - INFO - Progress: 1536/10000 prompts processed
+2025-03-07 16:46:36,666 - INFO - Progress: 1552/10000 prompts processed
+2025-03-07 16:46:45,383 - INFO - Progress: 1568/10000 prompts processed
+2025-03-07 16:46:53,624 - INFO - Progress: 1584/10000 prompts processed
+2025-03-07 16:46:53,918 - INFO - error_code=None error_message='Internal Server Error' error_param=None error_type=None message='Together API error received' stream_error=False
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591cc9a0>
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591a8be0>
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591abf40>
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591a86d0>
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591ce590>
+2025-03-07 16:46:53,923 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591a9210>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x158a8a290>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591cdb10>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591aa140>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x158a8b280>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591cdb70>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591a8e80>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591ce890>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1591a8970>
+2025-03-07 16:46:53,924 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x158a8a260>
+2025-03-08 09:53:05,515 - INFO - Starting inference on 10000 prompts
+2025-03-08 09:53:11,795 - INFO - Progress: 1600/10000 prompts processed
+2025-03-08 09:53:11,796 - INFO - Sleeping for 10 seconds
+2025-03-08 09:53:29,522 - INFO - Progress: 1616/10000 prompts processed
+2025-03-08 09:53:36,884 - INFO - Progress: 1632/10000 prompts processed
+2025-03-08 09:53:44,364 - INFO - Progress: 1648/10000 prompts processed
+2025-03-08 09:53:55,513 - INFO - Progress: 1664/10000 prompts processed
+2025-03-08 09:54:02,693 - INFO - Progress: 1680/10000 prompts processed
+2025-03-08 09:54:10,718 - INFO - Progress: 1696/10000 prompts processed
+2025-03-08 09:54:18,660 - INFO - Progress: 1712/10000 prompts processed
+2025-03-08 09:54:26,245 - INFO - Progress: 1728/10000 prompts processed
+2025-03-08 09:54:34,268 - INFO - Progress: 1744/10000 prompts processed
+2025-03-08 09:54:43,139 - INFO - Progress: 1760/10000 prompts processed
+2025-03-08 09:54:43,140 - INFO - Sleeping for 10 seconds
+2025-03-08 09:54:59,623 - INFO - Progress: 1776/10000 prompts processed
+2025-03-08 09:55:06,626 - INFO - Progress: 1792/10000 prompts processed
+2025-03-08 09:55:13,908 - INFO - Progress: 1808/10000 prompts processed
+2025-03-08 09:55:20,097 - INFO - Progress: 1824/10000 prompts processed
+2025-03-08 09:55:29,524 - INFO - Progress: 1840/10000 prompts processed
+2025-03-08 09:55:37,694 - INFO - Progress: 1856/10000 prompts processed
+2025-03-08 09:55:48,291 - INFO - Progress: 1872/10000 prompts processed
+2025-03-08 09:55:56,021 - INFO - Progress: 1888/10000 prompts processed
+2025-03-08 09:56:03,626 - INFO - Progress: 1904/10000 prompts processed
+2025-03-08 09:56:11,315 - INFO - Progress: 1920/10000 prompts processed
+2025-03-08 09:56:11,315 - INFO - Sleeping for 10 seconds
+2025-03-08 09:56:28,807 - INFO - Progress: 1936/10000 prompts processed
+2025-03-08 09:56:37,314 - INFO - Progress: 1952/10000 prompts processed
+2025-03-08 09:56:47,853 - INFO - Progress: 1968/10000 prompts processed
+2025-03-08 09:56:56,939 - INFO - Progress: 1984/10000 prompts processed
+2025-03-08 09:57:03,112 - INFO - Progress: 2000/10000 prompts processed
+2025-03-08 09:57:09,995 - INFO - Progress: 2016/10000 prompts processed
+2025-03-08 09:57:17,433 - INFO - Progress: 2032/10000 prompts processed
+2025-03-08 09:57:26,854 - INFO - Progress: 2048/10000 prompts processed
+2025-03-08 09:57:37,401 - INFO - Progress: 2064/10000 prompts processed
+2025-03-08 09:57:47,289 - INFO - Progress: 2080/10000 prompts processed
+2025-03-08 09:57:47,289 - INFO - Sleeping for 10 seconds
+2025-03-08 09:58:03,680 - INFO - Progress: 2096/10000 prompts processed
+2025-03-08 09:58:11,977 - INFO - Progress: 2112/10000 prompts processed
+2025-03-08 09:58:17,539 - INFO - Progress: 2128/10000 prompts processed
+2025-03-08 09:58:25,259 - INFO - Progress: 2144/10000 prompts processed
+2025-03-08 09:58:34,439 - INFO - Progress: 2160/10000 prompts processed
+2025-03-08 09:58:40,234 - INFO - Progress: 2176/10000 prompts processed
+2025-03-08 09:58:49,361 - INFO - Progress: 2192/10000 prompts processed
+2025-03-08 09:58:56,861 - INFO - Progress: 2208/10000 prompts processed
+2025-03-08 09:59:01,981 - INFO - Progress: 2224/10000 prompts processed
+2025-03-08 09:59:09,665 - INFO - Progress: 2240/10000 prompts processed
+2025-03-08 09:59:09,665 - INFO - Sleeping for 10 seconds
+2025-03-08 09:59:30,444 - INFO - Progress: 2256/10000 prompts processed
+2025-03-08 09:59:35,670 - INFO - Progress: 2272/10000 prompts processed
+2025-03-08 09:59:41,712 - INFO - Progress: 2288/10000 prompts processed
+2025-03-08 09:59:46,986 - INFO - Progress: 2304/10000 prompts processed
+2025-03-08 09:59:53,485 - INFO - Progress: 2320/10000 prompts processed
+2025-03-08 10:00:02,027 - INFO - Progress: 2336/10000 prompts processed
+2025-03-08 10:00:10,597 - INFO - Progress: 2352/10000 prompts processed
+2025-03-08 10:00:18,370 - INFO - Progress: 2368/10000 prompts processed
+2025-03-08 10:00:24,553 - INFO - Progress: 2384/10000 prompts processed
+2025-03-08 10:00:30,558 - INFO - Progress: 2400/10000 prompts processed
+2025-03-08 10:00:30,558 - INFO - Sleeping for 10 seconds
+2025-03-08 10:00:48,636 - INFO - Progress: 2416/10000 prompts processed
+2025-03-08 10:00:56,886 - INFO - Progress: 2432/10000 prompts processed
+2025-03-08 10:01:04,350 - INFO - Progress: 2448/10000 prompts processed
+2025-03-08 10:01:10,584 - INFO - Progress: 2464/10000 prompts processed
+2025-03-08 10:01:15,981 - INFO - Progress: 2480/10000 prompts processed
+2025-03-08 10:01:22,415 - INFO - Progress: 2496/10000 prompts processed
+2025-03-08 10:01:31,937 - INFO - Progress: 2512/10000 prompts processed
+2025-03-08 10:01:37,620 - INFO - Progress: 2528/10000 prompts processed
+2025-03-08 10:01:44,182 - INFO - Progress: 2544/10000 prompts processed
+2025-03-08 10:01:56,573 - INFO - Progress: 2560/10000 prompts processed
+2025-03-08 10:01:56,573 - INFO - Sleeping for 10 seconds
+2025-03-08 10:02:13,925 - INFO - Progress: 2576/10000 prompts processed
+2025-03-08 10:02:20,131 - INFO - Progress: 2592/10000 prompts processed
+2025-03-08 10:02:28,507 - INFO - Progress: 2608/10000 prompts processed
+2025-03-08 10:02:35,692 - INFO - Progress: 2624/10000 prompts processed
+2025-03-08 10:02:43,984 - INFO - Progress: 2640/10000 prompts processed
+2025-03-08 10:02:51,973 - INFO - Progress: 2656/10000 prompts processed
+2025-03-08 10:03:01,093 - INFO - Progress: 2672/10000 prompts processed
+2025-03-08 10:03:07,234 - INFO - Progress: 2688/10000 prompts processed
+2025-03-08 10:03:13,120 - INFO - Progress: 2704/10000 prompts processed
+2025-03-08 10:03:22,387 - INFO - Progress: 2720/10000 prompts processed
+2025-03-08 10:03:22,387 - INFO - Sleeping for 10 seconds
+2025-03-08 10:03:39,229 - INFO - Progress: 2736/10000 prompts processed
+2025-03-08 10:03:48,199 - INFO - Progress: 2752/10000 prompts processed
+2025-03-08 10:04:01,277 - INFO - Progress: 2768/10000 prompts processed
+2025-03-08 10:04:09,460 - INFO - Progress: 2784/10000 prompts processed
+2025-03-08 10:04:15,600 - INFO - Progress: 2800/10000 prompts processed
+2025-03-08 10:04:20,593 - INFO - Progress: 2816/10000 prompts processed
+2025-03-08 10:04:26,046 - INFO - Progress: 2832/10000 prompts processed
+2025-03-08 10:04:33,585 - INFO - Progress: 2848/10000 prompts processed
+2025-03-08 10:04:43,729 - INFO - Progress: 2864/10000 prompts processed
+2025-03-08 10:04:51,290 - INFO - Progress: 2880/10000 prompts processed
+2025-03-08 10:04:51,290 - INFO - Sleeping for 10 seconds
+2025-03-08 10:05:08,273 - INFO - Progress: 2896/10000 prompts processed
+2025-03-08 10:05:13,629 - INFO - Progress: 2912/10000 prompts processed
+2025-03-08 10:05:20,705 - INFO - Progress: 2928/10000 prompts processed
+2025-03-08 10:05:28,587 - INFO - Progress: 2944/10000 prompts processed
+2025-03-08 10:05:36,122 - INFO - Progress: 2960/10000 prompts processed
+2025-03-08 10:05:41,959 - INFO - Progress: 2976/10000 prompts processed
+2025-03-08 10:05:47,760 - INFO - Progress: 2992/10000 prompts processed
+2025-03-08 10:05:52,870 - INFO - Progress: 3008/10000 prompts processed
+2025-03-08 10:05:58,956 - INFO - Progress: 3024/10000 prompts processed
+2025-03-08 10:06:05,919 - INFO - Progress: 3040/10000 prompts processed
+2025-03-08 10:06:05,919 - INFO - Sleeping for 10 seconds
+2025-03-08 10:06:23,460 - INFO - Progress: 3056/10000 prompts processed
+2025-03-08 10:06:31,724 - INFO - Progress: 3072/10000 prompts processed
+2025-03-08 10:06:37,662 - INFO - Progress: 3088/10000 prompts processed
+2025-03-08 10:06:45,344 - INFO - Progress: 3104/10000 prompts processed
+2025-03-08 10:06:53,229 - INFO - Progress: 3120/10000 prompts processed
+2025-03-08 10:07:00,842 - INFO - Progress: 3136/10000 prompts processed
+2025-03-08 10:07:06,888 - INFO - Progress: 3152/10000 prompts processed
+2025-03-08 10:07:16,273 - INFO - Progress: 3168/10000 prompts processed
+2025-03-08 10:07:21,827 - INFO - Progress: 3184/10000 prompts processed
+2025-03-08 10:07:27,430 - INFO - Progress: 3200/10000 prompts processed
+2025-03-08 10:07:27,430 - INFO - Sleeping for 10 seconds
+2025-03-08 10:07:45,155 - INFO - Progress: 3216/10000 prompts processed
+2025-03-08 10:07:54,155 - INFO - Progress: 3232/10000 prompts processed
+2025-03-08 10:08:01,428 - INFO - Progress: 3248/10000 prompts processed
+2025-03-08 10:08:08,344 - INFO - Progress: 3264/10000 prompts processed
+2025-03-08 10:08:16,260 - INFO - Progress: 3280/10000 prompts processed
+2025-03-08 10:08:23,021 - INFO - Progress: 3296/10000 prompts processed
+2025-03-08 10:08:29,136 - INFO - Progress: 3312/10000 prompts processed
+2025-03-08 10:08:35,289 - INFO - Progress: 3328/10000 prompts processed
+2025-03-08 10:08:42,942 - INFO - Progress: 3344/10000 prompts processed
+2025-03-08 10:08:51,294 - INFO - Progress: 3360/10000 prompts processed
+2025-03-08 10:08:51,294 - INFO - Sleeping for 10 seconds
+2025-03-08 10:09:09,013 - INFO - Progress: 3376/10000 prompts processed
+2025-03-08 10:09:17,410 - INFO - Progress: 3392/10000 prompts processed
+2025-03-08 10:09:25,292 - INFO - Progress: 3408/10000 prompts processed
+2025-03-08 10:09:31,126 - INFO - Progress: 3424/10000 prompts processed
+2025-03-08 10:09:40,036 - INFO - Progress: 3440/10000 prompts processed
+2025-03-08 10:09:51,880 - INFO - Progress: 3456/10000 prompts processed
+2025-03-08 10:10:00,515 - INFO - Progress: 3472/10000 prompts processed
+2025-03-08 10:10:07,584 - INFO - Progress: 3488/10000 prompts processed
+2025-03-08 10:10:13,610 - INFO - Progress: 3504/10000 prompts processed
+2025-03-08 10:10:20,262 - INFO - Progress: 3520/10000 prompts processed
+2025-03-08 10:10:20,262 - INFO - Sleeping for 10 seconds
+2025-03-08 10:10:38,406 - INFO - Progress: 3536/10000 prompts processed
+2025-03-08 10:10:48,545 - INFO - Progress: 3552/10000 prompts processed
+2025-03-08 10:10:58,170 - INFO - Progress: 3568/10000 prompts processed
+2025-03-08 10:11:01,513 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8cfe20>
+2025-03-08 10:11:01,513 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b0370>
+2025-03-08 10:11:01,513 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c18f580>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8cf940>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b2080>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8cc3a0>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b13f0>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b1720>
+2025-03-08 10:11:01,514 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c18db40>
+2025-03-08 10:11:01,515 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b01c0>
+2025-03-08 10:11:01,515 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x15c8b3670>
