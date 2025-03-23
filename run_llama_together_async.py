@@ -99,11 +99,11 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
     logging.info(f"Starting inference on {total_prompts} prompts")
     
     output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.tsv"
-    with open(output_file, 'w', newline='', encoding='utf-8') as file:
+    with open(output_file, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
         writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 1584
+        processed_prompts = 9728
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
             
@@ -122,7 +122,7 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("--model", type=str, default="meta-llama/Llama-3.3-70B-Instruct-Turbo")
+    parser.add_argument("--model", type=str, default="deepseek-ai/DeepSeek-V3")
     parser.add_argument("--data", type=str, default='dolly')
     parser.add_argument("--persona", action='store_true')
     parser.add_argument("--cutoff", action='store_true')
