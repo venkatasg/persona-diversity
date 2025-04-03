@@ -101,9 +101,11 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
     output_file = f"{results_dir}/{model_name.split('/')[-1]}_{question_set}_output.tsv"
     with open(output_file, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
-        writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 9344
+        # writer.writerow(['prompt_id', 'persona_id', 'response'])
+        
+        processed_prompts = 2952
+        
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
             
@@ -127,7 +129,7 @@ def main():
     parser.add_argument("--persona", action='store_true')
     parser.add_argument("--cutoff", action='store_true')
     parser.add_argument("--output", type=str, required=True)
-    parser.add_argument("--batch", type=int, default=16)
+    parser.add_argument("--batch", type=int, default=8)
     args = parser.parse_args()
     
     if args.data=='dolly':
