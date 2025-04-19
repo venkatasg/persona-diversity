@@ -102,9 +102,9 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
     with open(output_file, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
         
-        # writer.writerow(['prompt_id', 'persona_id', 'response'])
+        writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 9792
+        processed_prompts = 0
         
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
@@ -117,9 +117,9 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
             processed_prompts += batch_size
             logging.info(f"Progress: {processed_prompts}/{total_prompts} prompts processed")
                 
-            if processed_prompts%(batch_size*10)==0:
-                logging.info(f"Sleeping for 10 seconds")
-                sleep(10)
+            # if processed_prompts%(batch_size*10)==0:
+            #     logging.info(f"Sleeping for 10 seconds")
+            #     sleep(10)
 
 
 def main():
@@ -133,9 +133,8 @@ def main():
     args = parser.parse_args()
     
     if args.data=='dolly':
-        prompts = create_prompts_dolly("data/dolly_creative_prompts_sample.tsv", "data/sample_coarse_personas.txt", args.persona, args.cutoff)   
-    elif args.data=='subj':
-        prompts = create_prompts_subjective("data/subj_questions.txt", "data/sample_personas.txt")
+        prompts = create_prompts_dolly("data/dolly_creative_prompts_sample.tsv", "data/sample_personas.txt", args.persona, args.cutoff)   
+
     run_model(raw_prompts=prompts, model_name=args.model, results_dir=args.output, question_set=args.data, batch_size=args.batch)
 
 
