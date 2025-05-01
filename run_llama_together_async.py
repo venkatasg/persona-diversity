@@ -21,8 +21,6 @@ client = AsyncTogether(
     api_key = api_key
 )
 
-# MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
-
 def setup_logging(log_file: str) -> None:
     """
     Configure logging to both file and console.
@@ -102,9 +100,9 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
     with open(output_file, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter="\t")
         
-        writer.writerow(['prompt_id', 'persona_id', 'response'])
+        # writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 0
+        processed_prompts = 9936
         
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
@@ -117,9 +115,9 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
             processed_prompts += batch_size
             logging.info(f"Progress: {processed_prompts}/{total_prompts} prompts processed")
                 
-            # if processed_prompts%(batch_size*10)==0:
-            #     logging.info(f"Sleeping for 10 seconds")
-            #     sleep(10)
+            # if processed_prompts%(batch_size*5)==0:
+            #     logging.info(f"Sleeping for 30 seconds")
+            #     sleep(30)
 
 
 def main():

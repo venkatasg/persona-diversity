@@ -4,51 +4,25 @@ import numpy as np
 from tqdm import tqdm
 import ipdb
 import re
-from evaluate import load
 from datasets import load_dataset
 from argparse import ArgumentParser
+from diversity import homogenization_score
+import markdown
+import emoji
+from bs4 import BeautifulSoup
 
 # Set random seeds for reproducibility on a specific machine
 random.seed(1)
 np.random.seed(1)
 np.random.RandomState(1)
 np.set_printoptions(precision=3)
-
-scorer = load("bertscore")
-
-def _calculate_score(ps, rs, batch_size):
-    """ 
-    Returns the score of two strings 
-    """
-    score = scorer.compute(predictions=ps, 
-                           references=rs, 
-                           model_type="microsoft/deberta-base-mnli",
-                           batch_size=batch_size)['f1']
-    # return sum of all f1 scores which is averaged later
-    return score
     
-def hom_bs(data, batch_size=64, verbose=True):
-
-    corpus_score = 0
-    doc_score = 0
-    
-    print('==> Scoring all pairs')
-     
-    for i, pred  in tqdm(enumerate(data), total=len(data), disable=(not verbose)):
-        refs = [x for j,x in enumerate(data) if j!=i]
-        preds = [pred for _ in range(len(refs))]
-        
-        doc_score = sum(_calculate_score(preds, refs, batch_size=batch_size))
-        
-        corpus_score += doc_score / (len(data) - 1)
-        doc_score = 0
-    
-    # case where all strings are the exact same in the list
-    if corpus_score == 0: 
-        corpus_score += len(data)
-    
-    # returns corpus level homogenization score 
-    return round(corpus_score/len(data), 3)
+def unformat(text):
+    html = markdown.markdown(text.strip())
+    soup = BeautifulSoup(html, features='html.parser')
+    unformatted_text = soup.get_text()
+    final_text = emoji.replace_emoji(unformatted_text, replace='').replace('\n', ' ')
+    return final_text
     
 def main():
     parser = ArgumentParser()
@@ -56,6 +30,7 @@ def main():
     parser.add_argument("--batch", type=int, default=64)
     parser.add_argument("--num_shuffles", type=int, default=3)
     parser.add_argument("--noverb", action='store_false')
+    parser.add_argument("--unformat", action='store_true')
     args = parser.parse_args()
     
     if args.datafile=='dolly':
@@ -67,11 +42,15 @@ def main():
         print(hom_bs(sample.response.values.tolist(), batch_size=args.batch, verbose=args.noverb)) 
     else:
         df = pd.read_csv(args.datafile, sep='\t')
-        df['response'] = df.response.apply(lambda x: x.strip())
+        
+        if args.unformat:
+            df['response'] = df.response.apply(lambda x: unformat(x))
+        else:
+            df['response'] = df.response.apply(lambda x: x.strip())
         
         if df.persona_id.unique().shape[0]==1:
             data = df.response.values.tolist()
-            print(hom_bs(data, batch_size=args.batch, verbose=args.noverb))
+            print(homogenization_score(data, measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"))
         else:
             bs_scores = []
             random.seed(1)
@@ -83,9 +62,9 @@ def main():
                 
                 new_df = df.set_index(['persona_id', 'prompt_id'])
                 data = new_df.loc[pairs, 'response'].values.tolist()
-                bs_scores.append(hom_bs(data, batch_size=args.batch, verbose=args.noverb))
+                bs_scores.append(homogenization_score(data, measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"))
             print(bs_scores)
-            print(f"Mean:{np.round(np.mean(bs_scores),2)}, SD: {np.round(np.std(bs_scores),2)}")
+            print(f"Mean:{np.round(np.mean(bs_scores),2)}, SD: {np.round(np.std(bs_scores),3)}")
     
 if __name__ == "__main__":
     main()
