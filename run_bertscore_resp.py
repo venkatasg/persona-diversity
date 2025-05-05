@@ -43,6 +43,19 @@ def main():
     else:
         df = pd.read_csv(args.datafile, sep='\t')
         
+        if 'persona_id' not in df.columns:
+            if df.shape[0]>100:
+                prompt_ids = []
+                persona_ids = []
+                for pr_id in range(100):
+                    prompt_ids += [pr_id for _ in range(100)]
+                    persona_ids += [j for j in range(100)]
+                df['persona_id'] = persona_ids
+                df['prompt_id'] = prompt_ids
+            else:
+                df['persona_id'] = [-1 for i in range(100)]
+                df['prompt_id'] = [i for i in range(100)]
+        
         if args.unformat:
             df['response'] = df.response.apply(lambda x: unformat(x))
         else:

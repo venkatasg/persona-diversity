@@ -1,0 +1,123 @@
+python run_bertscore_resp.py --datafile output/llama-temp0.7/llama70b-cutoff-persona/Llama-3.3-70B-Instruct-Turbo_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:43<00:00,  1.03s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:55<00:00,  1.15s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:14<00:00,  1.35s/it]
+[0.549, 0.551, 0.547]
+Mean:0.55, SD: 0.0
+
+
+python run_bertscore_resp.py --datafile output/llama-temp0.7/llama70b-persona/Llama-3.3-70B-Instruct-Turbo_dolly_output.tsv
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:09<00:00,  1.90s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:09<00:00,  1.90s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:14<00:00,  1.94s/it]
+[0.573, 0.578, 0.571]
+Mean:0.57, SD: 0.003
+
+python run_bertscore_resp.py --datafile output/coarse/llama-cutoff-persona/Llama-3.3-70B-Instruct-Turbo_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:05<00:00,  1.25s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:59<00:00,  1.19s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:43<00:00,  1.03s/it]
+[0.552, 0.552, 0.549]
+Mean:0.55, SD: 0.001
+
+
+UNFORMATTED
+python run_bertscore_resp.py --datafile output/coarse/deepseek-cutoff-persona/DeepSeek-V3_dolly_output.tsv --unformat
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:21<00:00,  1.41s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [04:31<00:00,  2.71s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:28<00:00,  1.48s/it]
+[0.538, 0.534, 0.537]
+Mean:0.54, SD: 0.002
+
+python run_bertscore_resp.py --datafile output/deepseek-cutoff-persona/DeepSeek-V3_dolly_output.tsv --unformat
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:52<00:00,  1.12s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:22<00:00,  1.42s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:20<00:00,  1.40s/it]
+[0.538, 0.54, 0.537]
+Mean:0.54, SD: 0.001
+
+python run_bertscore_resp.py --datafile output/deepseek-np-cutoff/DeepSeek-V3_dolly_output.tsv --unformat
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:46<00:00,  1.67s/it]
+0.534
+
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama8b-np/Llama-3.1-8B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:31<00:00,  2.12s/it]
+0.567
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama8b-cutoff-np/Llama-3.1-8B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:58<00:00,  1.19s/it]
+0.549
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama8b-persona/Llama-3.1-8B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:51<00:00,  1.71s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:51<00:00,  1.71s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:38<00:00,  2.19s/it]
+[0.57, 0.569, 0.571]
+Mean:0.57, SD: 0.001
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/deepseek-persona/DeepSeek-V3_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:46<00:00,  1.67s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:05<00:00,  1.86s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:32<00:00,  2.12s/it]
+[0.58, 0.582, 0.574]
+Mean:0.58, SD: 0.003
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama8b-cutoff-persona/Llama-3.1-8B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:40<00:00,  1.01s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:56<00:00,  1.16s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:50<00:00,  1.10s/it]
+[0.551, 0.553, 0.552]
+Mean:0.55, SD: 0.001
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama8b-coarse-cutoff-persona/Llama-3.1-8B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:49<00:00,  1.09s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:47<00:00,  1.07s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:42<00:00,  1.03s/it]
+[0.55, 0.554, 0.551]
+Mean:0.55, SD: 0.002
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama1b-np/Llama-3.2-1B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs
+  0%|                                                                                                       | 0/100 [00:00<?, ?it/s]Error during conversion: ChunkedEncodingError(ProtocolError('Response ended prematurely'))100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:43<00:00,  2.23s/it]
+0.569
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama1b-cutoff-np/Llama-3.2-1B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:33<00:00,  1.53s/it]
+0.545
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama1b-persona/Llama-3.2-1B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [05:10<00:00,  3.11s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:37<00:00,  2.17s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:29<00:00,  1.50s/it]
+[0.552, 0.564, 0.565]
+Mean:0.56, SD: 0.006
+(diversity) venkat@lambda:~/Desktop/persona-diversity$ python run_bertscore_resp.py --datafile output/llama-temp0.7/llama1b-cutoff-persona/Llama-3.2-1B-Instruct_dolly_output.tsv 
+/home/venkat/miniconda/envs/diversity/lib/python3.11/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:49<00:00,  1.70s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:47<00:00,  1.68s/it]
+==> Scoring all pairs100%|█████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [04:04<00:00,  2.44s/it]
+[0.549, 0.549, 0.539]
+Mean:0.55, SD: 0.005
