@@ -75,7 +75,7 @@ def load_pipe(model_name):
     # logging.info("Enabling torch.compile()")
     # model = torch.compile(model)
         
-    return pipeline('text-generation', model=model, tokenizer=tokenizer, model_kwargs={"torch_dtype": torch.bfloat16}, device='cuda:1')
+    return pipeline('text-generation', model=model, tokenizer=tokenizer, model_kwargs={"torch_dtype": torch.bfloat16}, device='cuda:0')
 
 
 def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_set="dolly", batch_size=16):
@@ -124,7 +124,7 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("--model", type=str, default="meta-llama/Llama-3.1-8B-Instruct")
+    parser.add_argument("--model", type=str, default="meta-llama/Llama-3.2-1B-Instruct")
     parser.add_argument("--data", type=str, default='dolly')
     parser.add_argument("--persona", action='store_true')
     parser.add_argument("--cutoff", action='store_true')
