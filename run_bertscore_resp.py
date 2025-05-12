@@ -10,6 +10,8 @@ from diversity import homogenization_score
 import markdown
 import emoji
 from bs4 import BeautifulSoup
+from transformers.utils import logging
+logging.set_verbosity_error() 
 
 # Set random seeds for reproducibility on a specific machine
 random.seed(1)
@@ -27,7 +29,7 @@ def unformat(text):
 def main():
     parser = ArgumentParser()
     parser.add_argument("--datafile", type=str, required=True)
-    parser.add_argument("--batch", type=int, default=64)
+    parser.add_argument("--batch", type=int, default=32)
     parser.add_argument("--num_shuffles", type=int, default=3)
     parser.add_argument("--noverb", action='store_false')
     parser.add_argument("--unformat", action='store_true')

@@ -102,13 +102,12 @@ def run_model(raw_prompts, model_name, results_dir, num_iterations=1, question_s
         
         writer.writerow(['prompt_id', 'persona_id', 'response'])
         
-        processed_prompts = 8992
+        processed_prompts = 0
         
         for i in range(processed_prompts, total_prompts, batch_size):
             batch = raw_prompts[i:i + batch_size]
             
             responses = asyncio.run(async_chat_completion(model_name, batch))
-            # ipdb.set_trace()
             for ind, response in enumerate(responses):
                 writer.writerow([batch[ind]['prompt_id'], batch[ind]['persona_id'], response.choices[0].message.content])
             
