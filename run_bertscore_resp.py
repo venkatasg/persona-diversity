@@ -41,7 +41,7 @@ def main():
         sample['response'] = sample['index'].apply(lambda x: dolly.loc[x, 'response'])
         sample['prompt_id'] = [i for i in range(len(sample))]
         
-        print(hom_bs(sample.response.values.tolist(), batch_size=args.batch, verbose=args.noverb)) 
+        print(np.round(homogenization_score(sample.response.values.tolist(), measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"), 2)) 
     else:
         df = pd.read_csv(args.datafile, sep='\t')
         
@@ -65,7 +65,7 @@ def main():
         
         if df.persona_id.unique().shape[0]==1:
             data = df.response.values.tolist()
-            print(homogenization_score(data, measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"))
+            print(np.round(homogenization_score(data, measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"), 2))
         else:
             bs_scores = []
             random.seed(1)
@@ -79,7 +79,7 @@ def main():
                 data = new_df.loc[pairs, 'response'].values.tolist()
                 bs_scores.append(homogenization_score(data, measure='bertscore', batch_size=args.batch, verbose=args.noverb, model="microsoft/deberta-base-mnli"))
             print(bs_scores)
-            print(f"Mean:{np.round(np.mean(bs_scores),2)}, SD: {np.round(np.std(bs_scores),3)}")
+            print(f"Mean:{np.round(np.mean(bs_scores),2)}, SD: {np.round(np.std(bs_scores),2)}")
     
 if __name__ == "__main__":
     main()
